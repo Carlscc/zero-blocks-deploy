@@ -19,7 +19,7 @@
 
 - [MongoDB](https://www.mongodb.com/) - Mongo DB is a document oriented NO SQL database
 - [Mongoose](https://mongoosejs.com/) - Schema-based solution to model application data
-- [Mongoose Sequence](https://www.npmjs.com/package/mongoose-sequence) - A plugin lets you create fields which autoincrement their value
+- [Mongoose Sequence](https://www.npmjs.com/package/mongoose-sequence) - A plugin lets you create fields which autoincrements their value
 - [Express](https://expressjs.com/) - Node.js web application framework
 - [Dotenv](https://www.npmjs.com/package/dotenv) - Module that loads environment variables from a .env file into process.env.
 
