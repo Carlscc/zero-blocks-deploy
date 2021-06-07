@@ -17,8 +17,11 @@
 
 🖥 Backend
 
-- [JSON-Server](https://github.com/typicode/json-server) - Quick fake API and back-end for prototyping
-
+- [MongoDB](https://www.mongodb.com/) - Mongo DB is a document oriented NO SQL database
+- [Mongoose](https://mongoosejs.com/) - Schema-based solution to model application data
+- [Mongoose Sequence](https://www.npmjs.com/package/mongoose-sequence) - A plugin lets you create fields which autoincrement their value
+- [Express](https://expressjs.com/) - Node.js web application framework
+- [Dotenv](https://www.npmjs.com/package/dotenv) - Module that loads environment variables from a .env file into process.env.
 
 ## Quick Start
 
@@ -29,9 +32,11 @@ Clone the repo
 Install the dependencies and start the app:
 ### `npm install`
 
-### `npm run dev`
+### `npm run server`
 
-Runs the app with the backend JSON-Server http://localhost:3000 Server: http://localhost:5000 (db.json contains data)
+Runs the app with the backend express server
+Add your own MongoDB URI to the config file and rename it to config.env.
+Server http://localhost:5000
 ```
 
 
