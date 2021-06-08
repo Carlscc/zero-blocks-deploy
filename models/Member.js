@@ -26,4 +26,4 @@ MemberSchema.pre("save", async function (next) {
     this.fullName = `${this.firstName} ${this.lastName}`;
   });
 
-module.exports = mongoose.model('member', MemberSchema);
+module.exports = mongoose.model('Member', MemberSchema);

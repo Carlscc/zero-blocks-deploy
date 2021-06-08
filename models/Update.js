@@ -4,22 +4,21 @@ const conn = require(path.join("..", "server"));
 const AutoIncrement = require("mongoose-sequence")(mongoose);
 
 const UpdateSchema = new mongoose.Schema({
-    id: {
-        type: Number,
-        required: true,
-        unique: true
-    },
     message: {
         type: String,
-        required: [true, "Please enter an update"]
+        required: [true, "Please enter an update"],
+        trim: true
     },
     attention: {
         type: Boolean,
         required: true
     },
+    member: {
+        type: String,
+        required: true },
     _member: {
         type: mongoose.Schema.ObjectId,
-        ref: "member"
+        ref: "Member"
     },
     date: {
         type: Date,

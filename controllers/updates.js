@@ -89,8 +89,6 @@ exports.editUpdates = async (req, res, next) => {
 
     req.body.date = Date.now();
 
-    console.log(req.body);
-
     update = await Update.findByIdAndUpdate(req.params.id, req.body, { new: true });
 
     return res.status(201).json({
